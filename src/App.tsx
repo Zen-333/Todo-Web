@@ -3,7 +3,7 @@ import './App.css'
 import InputField from './components/InputField';
 import type { Todo } from "./model";
 import TodoList from './components/TodoList';
-import { DragDropContext, Droppable, Draggable, type DropResult } from "@hello-pangea/dnd";
+import { DragDropContext, type DropResult } from "@hello-pangea/dnd";
 
 
 let role: [number, string]; // will contain 1 number and 1 string
