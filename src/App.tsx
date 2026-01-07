@@ -6,9 +6,9 @@ import TodoList from './components/TodoList';
 import { DragDropContext, type DropResult } from "@hello-pangea/dnd";
 
 
-let role: [number, string]; // will contain 1 number and 1 string
-let printName: (name: string) => never; // never = return nothing void = returns undefined
-let personName: unknown; // unkown is better than any
+//let role: [number, string]; // will contain 1 number and 1 string
+//let printName: (name: string) => never; // never = return nothing void = returns undefined
+//let personName: unknown; // unkown is better than any
 // 13m never void
 
 const App: React.FC = () => {
